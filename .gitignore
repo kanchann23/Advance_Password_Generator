@@ -1,0 +1,5 @@
+# Ignore distribution and build artifacts
+dist/
+build/
+*.egg-info/
+*.egg
