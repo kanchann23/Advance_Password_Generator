@@ -35,7 +35,7 @@ def generate_password():
         if any(char.isupper() for char in password) and any(char.islower() for char in password) and any(char.isdigit() for char in password) and password.lower() not in names:
             return password
 
-# Call function to generate password
+# Call function to generate password and then print
 RANDOM_PASSWORD = generate_password()
 
 # Print the generated password
