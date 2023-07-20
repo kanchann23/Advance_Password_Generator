@@ -21,5 +21,5 @@ if __name__ == '__main__':
     unittest.main()
     
     
-#python -m unittest test_generate_password.py
+#python -m unittest test_passw.py
 
